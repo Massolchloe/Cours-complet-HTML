@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- test pour le cour -->
+    <title>test</title>
+    <!-- logo pour le place -->
+    <link rel="shortcut icon" href="logo test.png" />
+  </head>
+
+  <body>
+    <!-- introduction, Titre + Texte -->
+    <header>
+      <div>
+        <h1>Titre</h1>
+        <p>
+          texte basique. <em>italique</em>. <strong>Gras</strong>.
+          <span>Texte qui ne revient pas la ligne</span>. Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Cumque, unde quas exercitationem
+          nostrum amet explicabo aliquam. Dolore architecto, ipsa laudantium
+          ipsum reprehenderit earum harum quam neque eos cumque quod quaerat!
+        </p>
+      </div>
+    </header>
+    <section>
+      <div>
+        <h2><span>&#9757;</span>titre</h2>
+        <!-- liste sans numeration -->
+        <ul>
+          <li>pas de numeration</li>
+          <li>pas de numeration</li>
+          <li>pas de numeration</li>
+        </ul>
+      </div>
+      <!-- photo -->
+      <div>
+        <img src="photo paysage.jpg" alt="image de paysage" height="300" />
+      </div>
+      <!-- liste avec numeration -->
+      <div>
+        <ol>
+          <li>numeration</li>
+          <li>numeration</li>
+          <li>numeration</li>
+        </ol>
+        <!-- Tableau -->
+      </div>
+      <br />
+      <div>
+        <table border="1" width="50%">
+          <!-- Legende -->
+          <caption>
+            Population d'Europe
+          </caption>
+          <!-- en tete -->
+          <thead>
+            <tr>
+              <th>Population</th>
+              <th>Pays</th>
+            </tr>
+          </thead>
+          <tbody>
+            <td>France</td>
+            <td>66 M</td>
+          </tbody>
+        </table>
+        <br />
+      </div>
+      <!-- Lien -->
+      <div>
+        <a href="https://htmlcheatsheet.com/" target="_blanc">
+          Html Cheat sheet</a
+        >
+        <br />
+        <a
+          href="https://www.toptal.com/designers/htmlarrows/symbols/"
+          target="_blanc"
+        >
+          icon Html</a
+        >
+      </div>
+      <br />
+      <div>
+        <video src="vinyle-57307.mp4" height="200" auto loop muted></video>
+      </div>
+    </section>
+    <br />
+    <section>
+      <h2>formulaire</h2>
+      <form action="/action-php" method="post">
+        <label for="name">Nom: </label>
+        <input id="name" type="text" placeholder="Entrez votre nom" /><br />
+        <label for="age">Age: </label
+        ><input
+          id="age"
+          type="number"
+          placeholder="entrez votre age"
+          min="1"
+          max="99"
+          step="1"
+          value="18"
+        /><br />
+        <!-- select -->
+        <label for="gender"> Genre</label>
+        <select id="gender">
+          <option selected value="homme">homme</option>
+          <option value="femme">femme</option></select
+        ><br />
+        <input type="radio" name="type" id="human" checked />
+        <label for="human"> Humain</label>
+        <input type="radio" name="type" id="cat" />
+        <label for="cat"> chat</label>
+        <input type="radio" name="type" id="dog" />
+        <label for="dog"> Chien</label><br />
+        <textarea
+          cols="30"
+          rows="10"
+          placeholder="entrez un commentaire"
+        ></textarea
+        ><br />
+        <label><input type="checkbox" /> Accepter les CGV</label><br />
+        <input type="submit" value="valider" />
+      </form>
+      <div>
+        <footer>
+        <a href="mailto:clocloxxl@gmail.coml"> Ecrivez-Moi!</a>
+        <br>
+        <a href="document.txt" download="document a télecharge">Téléchargé-moi</a>
+        <br>
+         </footer>
+      </div>
+    </section>
+  </body>
+</html>

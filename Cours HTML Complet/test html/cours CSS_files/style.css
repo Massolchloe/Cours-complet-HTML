@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    /* les police doivent être en rem */
+    font-size: 2.5rem;
+    text-shadow: 5px 1px 11px #00000069;
+    color: rgba(101, 120, 30, 0.774)
+    font-family: 'Nanum Gothic', sans-serif;
+}
